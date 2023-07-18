@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:20%;
+    height: 100%;
+    padding: 20px 100px;
+    border-radius: 30px;  
+    display:flex;
+    align-items:center;
+}
+body {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/140e8c117017275.606dbd052b0a2.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+marquee {
+    font-weight: bold;
+    color: green;
+    font-size:30px;
+  }
+.white-text{
+    color:white;
+  }
+
+.outer-box {
+    background-color: cyan;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+.inner-box {
+    background-color: magenta;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px magenta;
+  }
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+  }
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+button:hover {
+    border: 4px solid rgb(0, 0, 0);
+    background-color: transparent;
+    transform: scale(0.9);
+    padding: 6px 17px;
+    
+  }
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 300px;
+  }
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100px;
+  }
+.button2 {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #20538D;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #4479BA;
+  color: #FFF;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+.total-combinations {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+.button-container {
+    margin-top: 20px;
+  }
+
+.button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.button-container a:hover {
+    background-color: #d32f2f;
+  }
+input{
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+  }
