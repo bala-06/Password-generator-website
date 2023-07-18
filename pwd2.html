@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head><title>
+	Password Generator
+</title>
+<script src="pwd3script.js"></script>
+<link rel="stylesheet" href="pwd2style.css">
+</head>
+<body>
+  <header>
+  <nav class="navigation">
+    <button onclick="window.location.href='pwd2.html'">Home</button>
+    <button onclick="window.location.href='login.html'">Login</button>
+    <button onclick="window.location.href='contact.html'">Contact</button>
+    <button onclick="window.location.href='about.html'">About</button>
+  </nav>
+  </header>
+  <div class="outer-box">
+    <h1>Password Generator</h1>
+    <marquee behavior="scroll" direction="left" id="marquee">A long password is a strong password</marquee>
+    <p >Choose a password length between 8 and 32 characters.</p>
+    <div class="inner-box">
+      <label for="length">Password Length:&nbsp;&nbsp;</label>
+      <input type="number" id="length" min="8" max="32" value="0" >
+      <br>
+      <label for="uppercaseCount">Uppercase Letters:</label>
+      <input type="number" id="uppercaseCount" min="0" value="0">
+      <br>
+      <label for="lowercaseCount">Lowercase Letters:</label>
+      <input type="number" id="lowercaseCount" min="0" value="0">
+      <br>
+      <label for="numberCount">Numbers:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="number" id="numberCount" min="0" value="0">
+      <br>
+      <label for="symbolCount">Symbols:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="number" id="symbolCount" min="0" value="0">
+      <br>
+      <button onclick="generatePassword('simple')">Simple</button>
+      <button onclick="generatePassword('medium')">Medium</button>
+      <button onclick="generatePassword('hard')">Hard</button>
+      <br>
+      <button onclick="copyPassword()">Copy Password</button>
+      <input type="text" id="password" readonly>
+      <p id="copy-message"></p>
+      </div>
+    </div>
+</body>
+</html>
+
+  
+
+
+
