@@ -7,3 +7,5 @@ The user provides input through the web interface, specifying the desired length
 The application validates the user input and ensures that the total count of characters does not exceed the specified password length. 
 The password generation process involves randomly selecting characters from the defined character sets and concatenating them according to the user's preferences. 
 Finally, the generated password undergoes a shuffling algorithm to enhance its randomness and security. 
+
+Downlode the above code HTML,CSS and Javascript and save as the given name to run the project. 
